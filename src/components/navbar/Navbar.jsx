@@ -1,7 +1,8 @@
 import "./navbar.css";
 
 function Navbar() {
-  const cvPDF = "http://localhost:5173/quentinverwaerdecv.pdf";
+  const cvPDF =
+    "https://portfolio-lilac-seven-92.vercel.app/quentinverwaerdecv.pdf";
   const downloadClick = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
