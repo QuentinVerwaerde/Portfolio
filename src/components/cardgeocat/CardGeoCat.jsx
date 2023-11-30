@@ -14,7 +14,7 @@ function CardGeoCat() {
         s&apos;agit d&apos;un projet majoritairement développé seul.
       </text>
       <NavLink className="btn" to="https://geo-cat.vercel.app">
-        Maestro Task
+        Geo Cat
       </NavLink>
     </div>
   );
