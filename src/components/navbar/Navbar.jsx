@@ -37,24 +37,17 @@ function Navbar() {
             </svg>{" "}
           </a>
         </div>
-      </div>
-      <text className="text">
-        Bienvenue sur mon portfolio. Je suis Quentin Verwaerde, un jeune
-        développeur web en recherche d&apos;alternance. <br /> A travers ce
-        site, vous pourrez découvrir mes différents projets dans un style que
-        j`ai voulu minimaliste
-      </text>
-      <div>
-        {" "}
-        <button
-          className="button"
-          type="download"
-          onClick={() => {
-            downloadClick(cvPDF);
-          }}
-        >
-          Télecharger mon CV{" "}
-        </button>
+        <div>
+          <button
+            className="button"
+            type="download"
+            onClick={() => {
+              downloadClick(cvPDF);
+            }}
+          >
+            Télecharger mon CV{" "}
+          </button>
+        </div>
       </div>
     </div>
   );

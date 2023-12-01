@@ -1,14 +1,14 @@
-import CardDragonQuest from "../../components/carddragonquest/CardDragonQuest";
-import CardGeoCat from "../../components/cardgeocat/CardGeoCat";
-import CardMaestroTask from "../../components/cardmaestrotask/CardMaestroTask";
+import Cards from "../../components/cards/Cards";
+import Presentation from "../../components/presentation/Presentation";
+import Footer from "../../components/footer/Footer";
 import "./home.css";
 
 function Home() {
   return (
-    <div className="cards">
-      <CardDragonQuest />
-      <CardMaestroTask />
-      <CardGeoCat />
+    <div>
+      <Presentation />
+      <Cards />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.bordernavbarfooter {
+  width: fit-content;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-width: 6px;
+  border-color: rgb(255, 255, 255);
+}
