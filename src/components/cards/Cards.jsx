@@ -1,3 +1,4 @@
+import BandofGeeks from "../bandofgeeks/BandofGeeks";
 import CardDragonQuest from "../carddragonquest/CardDragonQuest";
 import CardMaestroTask from "../cardmaestrotask/CardMaestroTask";
 import CardGeoCat from "../cardgeocat/CardGeoCat";
@@ -9,6 +10,7 @@ function Cards() {
       <CardDragonQuest />
       <CardMaestroTask />
       <CardGeoCat />
+      <BandofGeeks />
     </div>
   );
 }

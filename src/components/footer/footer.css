@@ -3,10 +3,14 @@
   flex-direction: row;
   justify-content: flex-end;
   padding: 1rem;
+
+  color: white;
 }
 
 .bordernavbarfooter {
   width: fit-content;
+  padding-top: 0.5%;
+  padding-right: 1%;
   border-bottom-style: solid;
   border-right-style: solid;
   border-width: 6px;

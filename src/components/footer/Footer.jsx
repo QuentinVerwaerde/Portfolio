@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="bordernavbarfooter">
-        <text>PLOP</text>
+        <text> 2023 Tout droits réservés </text>
       </div>
     </div>
   );

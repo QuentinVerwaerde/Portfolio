@@ -27,7 +27,15 @@
   margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 50%;
+  transition: transform 0.1s;
 }
+
+.imgcardproject:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
 .btn {
   text-align: center;
   margin-left: auto;
@@ -58,4 +66,10 @@
   transform: translateY(-5px);
   box-shadow: 0 2px 0 -2px #f85959, 0 8px 0 -4px #39a2db,
     0 12px 10px -3px #39a2db;
+}
+
+@media screen and (max-width: 600px) {
+  .cardproject {
+    width: 100%;
+  }
 }

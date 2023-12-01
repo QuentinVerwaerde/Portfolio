@@ -42,9 +42,7 @@
 }
 
 .card .social-link1,
-.card .social-link2,
-.card .social-link3,
-.card .social-link4 {
+.card .social-link2 {
   position: relative;
   display: flex;
   align-items: center;
