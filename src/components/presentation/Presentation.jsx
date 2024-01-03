@@ -3,6 +3,10 @@ import "./presentation.css";
 function Presentation() {
   return (
     <div className="presentation">
+      <text className="textButBigger">
+        {" "}
+        Quentin Verwaerde - Développeur Web Junior
+      </text>
       <text className="text">
         Bienvenue sur mon portfolio. Je suis Quentin Verwaerde, un jeune
         développeur web en recherche d&apos;alternance. <br /> A travers ce
